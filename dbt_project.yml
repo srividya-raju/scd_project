@@ -36,24 +36,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-
-  scd2_project:
-
-      example:
-
-          schema: example 
-
+  scd2_poject:
      silver:
-
-          schema: silver
-
-          materialized: table
-
-      gold:
-
-          schema: gold
-
-          materialized: view
-
-
-
+          +materialized: table
+     gold:
+          +materialized: view
