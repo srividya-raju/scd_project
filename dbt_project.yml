@@ -17,7 +17,7 @@ vars:
 
    purge_status: FALSE
 
-   stage_name: MYDB.BRONZE.MY_S3_STAGE
+   stage_name: MYDB.BRONZE.SCD2_STAGE
 
    rawhist_db: MYDB
 
